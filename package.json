@@ -1,6 +1,6 @@
 {
   "name": "@loscolmebrothers/zip-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server providing file zipping and compression capabilities",
   "bin": {
     "zip-mcp": "./build/index.js"
