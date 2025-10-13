@@ -1,5 +1,5 @@
 {
-  "name": "zip-mcp",
+  "name": "@loscolmebrothers/zip-mcp",
   "version": "1.0.0",
   "description": "MCP server providing file zipping and compression capabilities",
   "bin": {
