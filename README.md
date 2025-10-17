@@ -1,6 +1,13 @@
 # ZIP MCP Server
 
+[![npm version](https://img.shields.io/npm/v/@loscolmebrothers/zip-mcp.svg)](https://www.npmjs.com/package/@loscolmebrothers/zip-mcp)
+
+[![npm downloads](https://img.shields.io/npm/dm/@loscolmebrothers/zip-mcp.svg)](https://www.npmjs.com/package/@loscolmebrothers/zip-mcp)
+
+[View @loscolmebrothers/zip-mcp on npm](https://www.npmjs.com/package/@loscolmebrothers/zip-mcp)
+
 An MCP (Model Context Protocol) server that provides ZIP file compression and decompression capabilities for AI assistants like Claude.
+
 
 ## Features
 
@@ -25,20 +32,19 @@ npm run build
 Add to your Claude Desktop configuration file:
 
 **MacOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+
 **Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
 
 ```json
 {
   "mcpServers": {
     "zip": {
-      "command": "node",
-      "args": ["/absolute/path/to/zip-mcp/build/index.js"]
+      "command": "npx",
+      "args": ["-y", "@loscolmebrothers/zip-mcp"]
     }
   }
 }
 ```
-
-Replace `/absolute/path/to/zip-mcp` with the actual path to this project.
 
 ### Available Tools
 
